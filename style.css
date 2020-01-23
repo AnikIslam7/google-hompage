@@ -9,13 +9,24 @@
   img{
     position: relative;
     top: 50%;
-    transform: translateY(250%)
+    transform: translateY(200%)
   }
 
   #searchBar {
     text-align: center;
     position: relative;
     top: 50%;
-    transform: translateY(1200%)
+    transform: translateY(1000%)
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    float: right;
   }
 
