@@ -19,14 +19,32 @@
     transform: translateY(1000%)
   }
 
-  ul {
+  #topNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  li {
-    padding: 8px;
+  #bottomNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .right {
+    margin-right: 10px;
+    padding: 10px;
     float: right;
+  }
+
+  .left {
+    margin-left: 0em;
+    padding: 8px;
+    float: left;
   }
 
