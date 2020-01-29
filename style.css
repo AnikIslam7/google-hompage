@@ -48,3 +48,20 @@
     float: left;
   }
 
+  #username{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    background: url(https://www.pngkit.com/png/full/26-269603_search-magnifying-glass-icon-png-grey.png) no-repeat left center,
+    url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/534px-Google_mic.svg.png) no-repeat right center;
+    background-size: 17px, 15px;
+    background-position-x: 15px, 525px;
+    padding: 15px;
+    transform: translateY(-600%)
+  }
+
