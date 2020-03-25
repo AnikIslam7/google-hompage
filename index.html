@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <ul id="topNav">
-        <li class="right"><a href="#images">Images</a></li>
-        <li class="right"><a href="#gmail">Gmail</a></li>
-    </ul>
-    <ul id="bottomNav">
-        <li class="left"><a href="">Advertising</a></li>
-        <li class="left"><a href="">Business</a></liclass="left">
-        <li class="left"><a href="">About</a></li>
-        <li class="left"><a href="">How Search Works</a></li>
-        <li class="right"><a href="">Privacy</a></li>
-        <li class="right"><a href="">Terms</a></li>
-        <li class="right"><a href="">Settings</a></li>
-    </ul>
-    <div id="googleImage">
-        <a><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
-    </div>
-    <div id="searchBar">
-        <input name="username" id="username" placeholder="    ">
-    </div>
-    
+   <head>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <title>Google</title>
+   </head>
+
+   <body>
+       <nav>
+           <ul class="right">
+               <li><a href="https://www.google.com/intl/en-GB/gmail/about/#">Gmail</a></li>
+               <li><a href="https://www.google.com.sg/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+               <li><a href="https://about.google/intl/en/products/?tab=wh"><img src="images/apps.png" class="appImage"></a></li>
+               <li><button type="button" class="signIn">Sign in</button></li>
+           </ul>
+       </nav>
+       <img src="images/google_logo.png" id="googleLogo" class="centre">
+
+       <form class = "searchBar">
+           <img src="images/magnifying_glass.png" class="magnifying_glass">
+           <input type="text">
+           <img src="images/mic.png" class="mic">
+       </form>
+
+       <div class="buttons">
+           <button type="button" class="button">Google Search</button>
+           <button type="button" class="button">I'm Feeling Lucky</button>
+       </div>
+
+       <div class="language">
+           <ul>
+                <li class="googleOfferedIn">Google offered in:</li>
+                <li class="languages"><a href="https://www.google.com/setprefs?sig=0_y1mJ0sWjq7OWNANDp9yDMRs8yMQ%3D&hl=zh-CN&source=homepage&sa=X&ved=0ahUKEwiN7fLKwbXoAhWGf30KHfW3DfUQ2ZgBCA4">中文(简体)</a></li>
+                <li class="languages"><a href="https://www.google.com/setprefs?sig=0_y1mJ0sWjq7OWNANDp9yDMRs8yMQ%3D&hl=ms&source=homepage&sa=X&ved=0ahUKEwiN7fLKwbXoAhWGf30KHfW3DfUQ2ZgBCA8">Melayu</a></li>
+                <li class="languages"><a href="https://www.google.com/setprefs?sig=0_y1mJ0sWjq7OWNANDp9yDMRs8yMQ%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiN7fLKwbXoAhWGf30KHfW3DfUQ2ZgBCBA">தமிழ்</a></li>
+            </ul>    
+        </div>
+        <div class="singapore">Singapore</div>
+
+        <nav class="footer">
+            <ul class="left">
+                <li><a href="https://ads.google.com/intl/en_sg/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                <li><a href="https://about.google/?utm_source=google-SG&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                <li><a href="https://www.google.com/preferences?hl=en">Search</a></li>
+            </ul>
+        </nav>
+   </body>
+
+
 </html>
